@@ -28,11 +28,13 @@ header {
 
 #div-img-kiwi {
   margin-left: 264px;
+  display: flex;
 }
 
 .img-kiwi-size {
   width: 476px;
   height: 595px;
+  margin-right: 10px;
 }
 
 .flex-container {
@@ -140,4 +142,28 @@ footer {
   font-size: 36px;
   color: #0500FF;
   text-align: center;
+  margin-top: 21px;
+}
+
+.spec-div-one {
+  font-family: Lato;
+  font-size: 28px;
+  text-align: left;
+  margin-left: 47px;
+  margin-top: 30px;
+}
+
+.align-right {
+  float: right;
+}
+
+#spec-div-one {
+  font-weight: 500;
+  color: #000000;
+  width: 211px;
+}
+
+#spec-div-two {
+  font-weight: 600;
+  color: #0121C8;
 }
